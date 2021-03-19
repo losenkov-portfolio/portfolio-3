@@ -581,7 +581,7 @@ body {
   font-weight: 700;
 }
 .header__login-signup {
-  width: 180px;
+  width: 230px;
   height: 45px;
   display: flex;
   justify-content: center;
@@ -1038,21 +1038,12 @@ body {
     background-color: #fff;
     position: fixed;
     bottom: 0;
-    top: 87px;
+    top: 97px;
     z-index: 9990;
     right: -500px;
     margin-left: auto;
     padding: 0 20px;
     transition: right 0.3s;
-  }
-  .header__mobile-close {
-    text-align: left;
-    padding: 25px 15px;
-    color: #f53737;
-    font-weight: 700;
-    font-size: 18px;
-    background-color: #eee;
-    margin: 0 -20px;
   }
   .header__mobile.open {
     transition: right 0.3s;
